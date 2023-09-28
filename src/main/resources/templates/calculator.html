@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Калькулятор</title>
+</head>
+<body>
+<div style="margin-left:10em">
+    <h1>Калькулятор</h1>
+    <h4 th:text="${result}">ResultData</h4>
+    <h4>Ввод данных в адресную строку по шаблону</h4>
+    <ul>
+        <li>localhost:8080/calc далее с учетом действия</li>
+
+        <li>/plus?num1=number&num2=number сложение</li>
+        <li>/minus?num1=number&num2=number вычитание</li>
+        <li>/multiply?num1=number&num2=number умножение</li>
+        <li>/divide?num1=number&num2=number деление</li>
+    </ul>
+
+</div>
+
+</body>
+</html>
+
