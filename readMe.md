@@ -5,7 +5,8 @@
 - HomeController предназначен для url localhost:8080
 - CalculatroController основной контроллер согласно домашнего задания
 - в CalculatroController использован class Model для обмена данными между контроллером и  calculate.html
-- CalculatorServEmpl реализация интерфейса CalculatorServ  
+- CalculatorServEmpl реализация интерфейса CalculatorServ
+- Используемый API размещен в директории controller
 
 # Проблемы, которые не удалось разрешить
 - для url localhost:8080/calc & localhost:8080/calc/  

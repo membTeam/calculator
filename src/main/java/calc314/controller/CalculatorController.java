@@ -5,6 +5,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 @RequestMapping("/calc")
+@Controller
 public class CalculatorController {
 
     private final CalculatorServEmpl calcServEmpl;
